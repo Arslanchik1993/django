@@ -20,7 +20,7 @@ print(BASE_DIR)
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-06umde2xwbzc1g&8b!$pa35-^c=$cpv6jp_e10ptin8ku$lt-0'
+SECRET_KEY = 'django-insecure-f!67sgv^b(mm-+ar_vpy_vy$3%te*tvh=^_jbmxsid@b_hgopo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #user apps
+
+    #My own apps 
     'products', 
 
 ]
@@ -50,7 +51,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-
 ]
 
 ROOT_URLCONF = 'trydjango.urls'
